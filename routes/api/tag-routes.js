@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
                 model: Product,
                 attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
                 through: ProductTag,
-                as: 'product'
+                as: 'tag_product'
             }]
         }).then(tags => res.json(tags))
         .catch(err => {
