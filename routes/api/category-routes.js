@@ -31,7 +31,7 @@ router.get('/:id', (req, res) => {
         })
 });
 
-// A route that retrieves adds a new category to the database
+// A route that adds a new category to the database
 router.post('/', (req, res) => {
     Category.create({
             category_name: req.body.category_name
