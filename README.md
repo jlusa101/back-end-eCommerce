@@ -14,7 +14,7 @@ Ensure to install the required dependancies: "npm install sequelize mysql2 doten
 
 - Clone this project into your local machine.
 - Open your terminal and navigate to the directory that you cloned the repository in.
-- In ".env" file add the following data and if not not present, please create one in the root directory:
+- In ".env" file add the following data and if file not present, please create one in the root directory:
 
   - DB_NAME='DATABASE_NAME'
   - DB_USER='YOUR_USERNAME'
