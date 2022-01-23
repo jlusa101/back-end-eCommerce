@@ -21,7 +21,7 @@ Ensure to install the required dependancies: "npm install sequelize mysql2 doten
   - DB_PW='YOUR_PASSWORD'
 
 - When on MySQL shell command prompt, please run command "SOURCE db/schema.sql" to create a database
-- Then on Git Bash, run command "npm run seed" to populate the database tables with fake data.
+- Then on Git Bash, run command "npm run seed" to populate the database tables with data.
 - Then run command "npm start", which will start the Express server and you are able to test routes on Insomnia
 
 ### Note
@@ -36,6 +36,8 @@ At this time, there is no front-end set up but all the routes can be tested usin
 - Express.js
 
 ## Video
+
+https://watch.screencastify.com/v/AZOaSKgfiubOUz5w4CvE
 
 ## Contribution
 
